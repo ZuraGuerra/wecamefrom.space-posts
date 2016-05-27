@@ -1,0 +1,45 @@
+* {
+  text-align: center;
+  font-family: Lato, Avenir, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: #fffeee;
+}
+
+h1 {
+  font-family: Futura;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  font-size:1.2em;
+  margin:5vw;
+}
+
+img {
+  max-width: 30vw;
+  max-height:30vw;
+  margin: 2.5%;
+}
+
+p {
+  margin-left: 12vw;
+  margin-right: 12vw;
+  font-weight: 300;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    margin-left:5vw;
+    margin-right:5vw;
+}
+hr:after {
+    content: "✾";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
