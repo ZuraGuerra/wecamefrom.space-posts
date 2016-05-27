@@ -13,6 +13,18 @@ h1 {
   margin:5vw;
 }
 
+h2 {
+  font-family: Futura;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size:0.75em;
+  margin:5vw;
+  margin-right:15vw;
+  margin-top:-3.5vw;
+  color:gray;
+  text-align:right;
+}
+
 img {
   max-width: 30vw;
   max-height:30vw;
